@@ -23,6 +23,10 @@ Maven commands:
 ## VSCode Remote
 We can use [VSCode tunnels](https://code.visualstudio.com/docs/remote/tunnels) to enable remote development. After installing the `code` CLI, run the following command in the project to open VSCode tunnel which will enable remote machines to access files in the project directory. 
 
+```bash
+code --user-data-dir="~/.vscode-root" tunnel --accept-server-license-terms
+```
+
 ## Extensions
 
 Useful extensions for VSCode in the Extensions Marketplace to enable autocomplete, linting, and more by extension ID:
