@@ -20,6 +20,9 @@ Maven commands:
 * `mvn test` will compile and run tests in the `javatests` directory
 * `mvn exec:java -Dexec.mainClass="package.MainClass"` will compile and execute the main function located in `package.MainClass`
 
+## VSCode Remote
+We can use [VSCode tunnels](https://code.visualstudio.com/docs/remote/tunnels) to enable remote development. After installing the `code` CLI, run the following command in the project to open VSCode tunnel which will enable remote machines to access files in the project directory. 
+
 ## Extensions
 
 Useful extensions for VSCode in the Extensions Marketplace to enable autocomplete, linting, and more by extension ID:
